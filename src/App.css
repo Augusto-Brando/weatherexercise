@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+.search {
+  text-align: center;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.search h2 {
+  color: white;
+  padding: 25px;
+}
+
+.search input[type=text] {
+width: 51%;
+height: 40px;
+padding-left: 30px;
+font-size: 15px;
+}
+
+
+.search input[type=submit] {
+  background-color: white;
+  text-align: center;
+  height: 40px;
+  width: 51%;
+  color: white;
+  background-color: rgb(53, 14, 60);
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.containerCidade{ 
+  text-align: center;
+}
+
+.containerCidade p {
+  border-bottom: 1px dashed #CCC;
+  padding: 10px;
+  font-weight: bold;
+}
